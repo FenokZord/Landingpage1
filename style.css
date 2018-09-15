@@ -1,10 +1,10 @@
 body{
     margin: 0 auto;
     font-family: sans-serif;
-    width: 40vw;
+    width: 50vw;
 }
 header{
-    height: 40vh;
+    height: 60vh;
     background:linear-gradient(to bottom, rgba(184, 184, 184, 0.5),rgba(184, 184, 184, 0.50)),  url("imagens/pc.jpg");
     background-size: cover;
 }
@@ -36,7 +36,7 @@ a{
 }
 .menu{
     margin:0;
-    width: calc(30vw - 70px);
+    width: calc(40vw - 70px);
     display: flex;
     justify-content:space-evenly;
     align-content: center;
@@ -46,8 +46,8 @@ a{
 /* fim do estilo do menu  */
 /* estilo do two bytes */
 .tipografia{
-    width: 6vw;
-    height: 4vh;
+    width: 60px;
+    height: 50px;
     display: flex;
     padding: 0px;
     flex-direction: column;
@@ -74,14 +74,14 @@ a{
  }
  .tipografia p{
      margin: 0px;
-     display:flex;
+     display:inline-flex;
      justify-content: center;
      position: relative;
  }
  /* fim do estilo do two bytes */
  /* estilo do campo de preenchimento */
  .campos{
-    margin:2vh;
+    margin:10vh;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -100,7 +100,7 @@ h2{
 }
  /* estilo dos inputs */
 .qualemp{
-    width:25vw;
+    width:30vw;
     height:8vh;
     color: aliceblue;
     border:3px solid aliceblue;
@@ -108,7 +108,7 @@ h2{
     border-radius: 3px;
 }
 .linha2{
-    width:25vw;
+    width: 30vw;
     height:6vh;
     display:flex;
     justify-content: space-between;
@@ -133,7 +133,7 @@ h2{
 select{
     display:inline;
     margin-left: 2%;
-    width:45%;
+    width:40%;
     height:4vh;
     display: inline;
     color: gray;
@@ -147,12 +147,12 @@ select{
     position: relative;
     width: 6vw;
     height: 4vh;
-    left: 30vw;
+    left: 35vw;
     bottom:5vh;
 }
 .search button{
     width: 6vw;
-    height: 4vh;
+    height: 6vh;
     background-color: #4ACAFF;
     color: aliceblue;
     font-weight: bolder;
@@ -167,7 +167,7 @@ select{
     flex-direction: row;
     margin:0;
     position: relative;
-    top:8vh;
+    top:11vh;
 }
  .azulc{
      width: 70px;
@@ -181,6 +181,8 @@ select{
     background: #3CAFDE;
     margin:0;
  }
+       
+  
 .branca{
  height: 300px;
  display:flex;
@@ -188,6 +190,7 @@ select{
  align-items:center;
 }
 .branca h3{
+    display:inline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     color: black;
@@ -196,3 +199,12 @@ select{
     justify-content:center;
     left:275px;
 }
+   .branca  h4 {
+       exibição : flex ;
+       margem-fundo : 50 px ;
+       margem esquerda : 300 px ;
+   }
+   .branca  p {
+   exibição : flex ;
+   margem superior : 150 px ;
+   } 
